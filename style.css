@@ -10,7 +10,15 @@
     font-weight: 50px;
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    ;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+
+
+@keyframes slideLeft {
+    from {
+        transform: translatex(50px)
+    }
 }
 
 .e2 {
@@ -18,6 +26,8 @@
     font-weight: 50px;
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    animation-name: slideLeft;
+    animation-duration: 2s;
 }
 
 .e3 {
@@ -25,6 +35,12 @@
     width: 1000px;
     height: 500px;
     align-items: center;
+    transition: 0.5s;
+}
+
+.e3:hover {
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .e4 {
@@ -49,6 +65,12 @@
     width: 500px;
     height: 500px;
     text-align: center;
+    transition: 0.5s;
+}
+
+.e6:hover {
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .e7 {
@@ -120,6 +142,12 @@
     padding: 30px;
     width: 200px;
     height: 200px;
+    transition: 0.5s;
+}
+
+.e16:hover {
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .e17 {
@@ -130,5 +158,5 @@
     font-weight: 50px;
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   
+
 }
